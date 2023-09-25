@@ -1,0 +1,125 @@
+/*
+    Bu Web Site Onur Doğan yani pyazilim tarafından yapılmıştır!
+    instagram @pyazilim_
+*/
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+body{
+    margin: 0px;
+}
+
+.arka{
+    width: 100%;
+    height: 750px;
+
+}
+.red{
+    position: absolute;
+    opacity: 90%;
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+h1{
+    font-size: 50px;
+    margin: 5px;
+    
+}
+h2{
+    margin: 7px;
+}
+
+.banner{
+    color:black;
+    width: 30%;
+    position: absolute;
+    height: auto;
+    margin: 50px;
+    float: left;
+    text-shadow:2px 2px white;
+    
+}
+
+.play{
+    left: 20px;
+    top: 330px;
+    width: 30%;
+    height: auto;
+    float: left;
+    position: relative;
+    opacity: 70%;
+}
+.play:hover{
+    opacity: 100%;
+}
+nav {
+    
+    width: 30%;
+    height: auto;
+    margin: 50px;
+    float: right;
+    position: relative;
+    
+    
+}
+.option{
+    
+    position:static;
+    font-family: 'Open Sauce One', sans-serif;
+
+}
+.con{
+    width: 1150px;
+    margin-left: 70px;
+    bottom: 210px;
+    position: absolute;
+    height: auto;
+}
+li{
+
+    display: block;
+    margin: 2px;
+    padding: 10px;
+    
+}
+li:hover{
+    background-color: aqua;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+a{
+    text-decoration: none;
+    font-family: 'open sauce sans' sans-serif;
+    
+}
+.social{
+    margin:50px;
+    top: 150px;
+    width: 30%;
+    
+    position: absolute;
+    float: right;
+}
+
+a.fa{
+    font-size: 50px;
+    color : black;
+}
+a.fa.fa-youtube:hover{
+    color: red;
+    transition-duration: 0.5s;
+}
+a.fa.fa-twitter{
+    padding-left: 20px;
+}
+a.fa.fa-twitter:hover{
+    color: skyblue;
+    transition-duration: 0.5s;
+}
+a.fa.fa-instagram{
+    padding-left: 20px;
+}
+a.fa.fa-instagram:hover{
+    color: blue;
+    transition-duration: 0.5s;
+}
