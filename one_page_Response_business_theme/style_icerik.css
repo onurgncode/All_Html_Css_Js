@@ -1,0 +1,120 @@
+/* Box1 İçeriği */
+.box .yazi{
+    padding: 25px;
+    margin-top: 110px;
+    width: 40%;
+    float: left;
+    display: block;
+}
+
+.box img{
+    display: block;
+    margin-left: 70px;
+    float: left;
+    width: 50%;
+    margin-top: 110px;
+    cursor: pointer;
+    
+    
+}
+/* Box2 İçeriği */
+
+.box2 .yazi2{
+    margin-top: 40px;
+    width: 100%;
+    
+    
+}
+.yazi2 {
+   width: 100%;
+   
+   
+}
+.trak{
+    text-align: justify;
+    
+}
+.box2 img{
+    margin-right: 20px;
+    width: 40%;
+    border-radius: 3%;
+    box-shadow: 5px 5px red;
+    float: left;
+}
+/* Box 3 İçeriği */
+
+.gal{
+    margin-left: 10px;
+    float: left;
+    margin-top: 50px;
+    width: 32%;
+    height: 230px;
+   
+    
+    overflow: hidden;
+    
+}
+
+.gal img{
+   cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+    
+    
+}
+.gal:active{
+    height: auto;
+    position: absolute;
+    width: 60%;
+    margin: 15px;
+    transition-duration: 1s;
+}
+
+ .yazs{
+    width: 100%;
+    
+    float: left;
+    color: black;
+    margin: 15px;
+    
+    text-align: center;
+    font-size: 100px;
+   
+}
+.yazi3{
+    margin-top: 50px;
+
+}
+
+/* Box3 İçeriği */
+.yazi4{
+    width: 100%;
+    margin-top: 160px;
+    text-align: left;
+    background-color: red;
+    
+}
+.input{
+    width: 100%;
+    
+}
+textarea
+{
+    width: 100%;
+}
+.imge{
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;
+    width: 30%;
+}
+input{
+    
+    width: 100%;
+    height: 25px;
+}
+fieldset{
+    width: 50%;
+    padding: 5%;
+    float: left;
+}
