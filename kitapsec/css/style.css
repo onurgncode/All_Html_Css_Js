@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Sayfa Yapısı*/
+.main{
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    z-index: 2;
+    top:36px;
+    border: 2px solid purple;
+    height: 1700px;
+}
+.hiza{
+    
+    margin: 10px ;
+    
+}
+
+/* Menu ve Banner*/
+
+.banner{
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    
+}
+.resim img{
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu{
+    top: 0px;
+    height: 180px;
+    width: 100%;
+    
+}
+
+.haberler {
+	margin-top:50px;
+    width: 98%;
+    box-shadow: 2px 2px 2px black;
+    float: right;
+    padding: 12px;
+    text-align: center;
+    background-color: #eee;
+    border-top-right-radius: 30px;
+    border-top-left-radius:30px;
+}
+.menu img {
+   float: left;
+   width: 30%;
+   margin-top: 5px;
+   cursor: pointer;
+}
+nav{
+    
+    float: left;
+    width: 65%;
+    margin-top: 5px;
+    padding: 20px;
+    
+}
+nav li {
+    width: 14%;
+    list-style-type: none;
+    display: inline;
+    background-color: brown;
+    margin-right: 15px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    transition: 1s;
+    border: 1px solid white;
+}
+
+nav a{
+    
+    
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+.menu li:hover{
+    padding: 19 px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+hr {
+    box-shadow: 2px 2px 2px red; 
+}
+
+/*İçerik Kısmı*/
+.icerik{
+    
+    margin-top: 20px;
+    width: 100%;
+    
+    
+}
+
+.al{
+    box-shadow: 2px 2px 2px red;
+    
+    
+    
+    width: 100%;
+    float: left;
+    border: 0.5px solid black;
+}
+.lap{
+    border-radius: 10px;
+    height: 350px;
+    box-shadow: 2px 2px 2px red;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 16.8%;
+    float: left;
+    border: 0.5px solid black;
+}
+.lap a{
+    text-decoration: none;
+}
+.ustlap h3{
+    padding: 2px;
+    width: 100%;
+    font: 1.2em sans-serif;
+    
+}
+.ustlap{
+    
+    height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    
+    
+   
+    color: black;
+    transition-duration: 0.5s;
+}
+.ustlap:hover{
+    opacity: 0.5;
+    background-color: red;
+}
+.lapimg img{
+    height: 250px;
+    margin-top: 10px;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.lapimg img:hover{
+    opacity: 0.8;
+    transform:scale(1.5) ;
+}
+
+.al{
+    float: left;
+}
+#lap{
+    width: 100% !important;
+}
+
+
+/* Yazar */
+.lap_yazar{
+    height: 600px;
+    box-shadow: 2px 2px 2px red;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 10px;
+    width: 20%;
+    float: left;
+    border: 0.5px solid black;
+    border-radius: 5px;
+}
+.lap_yazar a{
+    text-decoration: none;
+}
+.ustlap_yazar h3{
+    
+    width: 100%;
+}
+.ustlap_yazar{
+    height: 30px;
+    padding: 4px;
+    border: 1px solid black;
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    color: white;
+    transition-duration: 0.5s;
+}
+.ustlap_yazar:hover{
+    opacity: 0.8;
+}
+.lapimg_yazar img{
+    height: 250px;
+    margin-top: 10px;
+    width: 100%;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.lapimg_yazar img:active{
+    
+    transform-origin: 1svh;
+    transform:scale(1.5);
+}
+.lab_yazar_yazı{
+    float: left;
+    font-style: oblique;
+    padding: 5px;
+}

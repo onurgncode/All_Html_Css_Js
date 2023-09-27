@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        input[type=text],input[type=password]
+        {
+            border: none;
+            width: 200px;
+            font-size: 20px;
+            
+            
+        }
+        input[type=text]:focus,input[type=password]
+        {
+            border: none;
+            border-radius: 7px;
+            font-size: 20px;
+        }
+        .max{
+            border: 7px solid skyblue;
+            border-radius: 7px;
+            display:inline-block;
+            margin: 5px;
+        }
+        .max i{
+            padding: 2px;
+        }
+        #arama{
+            width: 485px !important;
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="max" id="arama">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <input type="text" placeholder="Arama Yap" class="ekle">
+    </div><br>
+<div class="max">
+    <i class="fa-solid fa-signature"></i>
+    <input type="text" placeholder="Adınız">
+    </div>
+    <div class="max">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Şifreniz">
+        </div>
+</body>
+</html>

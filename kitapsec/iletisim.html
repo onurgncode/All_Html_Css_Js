@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap Dünyası</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        footer{
+            margin: auto;
+            text-align: center;
+        }
+        .main{
+            height: 1300px  !important;
+        }
+        fieldset{
+            padding: 20px;
+            border: 2px solid skyblue;
+            border-radius: 7px;
+            display:inline-block;
+        }
+        label{
+            font-size: 30px;
+        }
+        table{
+            margin: auto;
+        }
+        input[type=text],input[type=password]
+        {
+            border: none;
+            width: 370px;
+            font-size: 20px;
+            padding: 5px;
+            
+        }
+        input[type=text]:focus,input[type=password]:focus
+        {
+            
+            
+            border-radius: 7px;
+            font-size: 20px;
+        }
+        
+        .max i{
+            padding: 2px;
+        }
+        #arama{
+            width: 100% !important;
+        }
+        textarea{
+            font-size: 17px;
+            padding: 15px;
+            box-sizing:border-box;
+            width: 420px;
+            border: 7px solid skyblue;
+            border-radius: 7px;
+            resize: none;
+        }
+        td{
+            width: 200px;
+            padding: 10px;
+        }
+        input[type=button]
+        {
+            box-shadow:1px 1px 1px 1px black;
+            border-radius: 10px;
+            border: 2px solid skyblue;
+            width:120px;
+            height: 25px;
+            background-color: brown;
+            cursor: pointer;
+            margin: auto;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15PX;
+            transition: 0.1s;
+            height: 40px;
+        }
+        input[type=button]:active{
+            background-color:skyblue;
+            color: black;
+            border: 2px solid red;
+        }
+        i{
+            font-size: 20px;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="banner">
+        <img src="images/bar.jpg" alt="">
+    </div>
+    <div class="main">
+        <div class="hiza">
+        <div class="resim">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <img src="images/ustlogo.png" alt="">
+            <nav>
+                <a href="index.html" ><li>Ana Sayfa</li></a>
+                <a href=""><li>Kitap</li></a>
+                <a href=""><li>Kırtasiye</li></a>
+                <a href="sepet.html"><li>Sepetim</li></a>
+                <a href="iletisim.html"><li>İletişim</li></a>
+            </nav> 
+            <div class="haberler">
+                <h3>İletişim</h3>
+            </div>
+            
+        </div>
+
+        <hr size="2.5px" color="black">
+
+        <div class="icerik">
+            
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="adınız">Adınız: </label>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend><i class="fa-solid fa-signature"></i></legend>
+                            <div class="max">
+                                
+                                <input type="text" placeholder="Adınız" name="adınız">
+                            </div>
+                        </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Şifreniz: </label>
+                        </td>
+                            <td>
+                                <fieldset>
+                                    <legend><i class="fa-solid fa-lock"></i></legend>
+                                <div class="max">
+                                    
+                                    <input type="password" placeholder="Şifreniz">
+                                </div>
+                            </fieldset>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">E mail:</label>
+                        </td>
+                        <td>
+                            <fieldset>
+                                <legend><i class="fa-solid fa-envelope"></i></legend>
+                            <div class="max">
+                                
+                                <input type="text" placeholder="E mail Adresiniz">
+                            </div>
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for=""><label for="">Mesaj:</label> </label>
+                        </td>
+                        <td>
+                            <textarea name="" id="" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Yer Seç:</label>
+                        </td>
+                        <td>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m8!1m3!1d3012.400922050434!2d29.1492603!3d40.972701!3m2!1i1024!2i768!4f13.1!4m5!3e6!4m3!3m2!1d40.972697!2d29.151449!5e0!3m2!1str!2str!4v1691412587313!5m2!1str!2str" width="400px" height="200px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" name="Gönder" id="" value="Gönder">
+                        </td>
+                        <td>
+                            <input type="button" name="Temizle" id="" value="Temizle">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            
+            
+        </div> <!--icerik-->
+        
+        
+        
+        
+       
+    </div><!--hiza-->
+    <footer>
+        <div class="sol">
+            <img src="images/ustlogo.png" alt="">
+            <p>
+                
+            </p>
+        </div>
+        
+    </footer>
+
+    
+    </div><!--Main-->
+   
+</body>
+</html>
