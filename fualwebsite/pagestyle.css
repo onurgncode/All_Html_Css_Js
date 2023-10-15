@@ -1,0 +1,36 @@
+.icerik{
+    height: 100px !important;
+}
+.post{
+    background-color: blue !important;
+    height: 150px !important;
+}
+.post a{
+    margin-top: 85px !important;
+}
+.dolar{
+    float: left !important;
+    margin-left: 5px;
+}
+.post img{
+    float: right !important;
+    margin-right: 5px;
+}
+.icerik h1,.icerik2 h1{
+    margin:0;
+    margin-left: 5px;
+}
+.dolar{
+    background-color: brown !important;
+}
+.Kapalı{
+    background-color: brown !important;
+}
+.acik i {
+    float: right;
+    color: black;
+    margin-right: 5px;
+    font-size: 25px;
+    margin-top: 3px;
+    padding: 2px;
+}

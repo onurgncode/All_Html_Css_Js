@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.main{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+.main img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.tarayıcı{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+   color: white;
+  
+}
+.tarayıcı img{
+    margin-top:50px ;
+    width: 5%;
+    height: 3%;
+    margin-left: 85px;
+}
+p{
+    width: 100%;
+    background-color: #eee;
+    position: absolute;
+    background-color: grey;
+}
+
+.arama {
+    display: inline-block;
+    width: 30%;
+    margin-left: 150px;
+}
+.arama p{
+    text-align: center;
+    margin-top: 41px;
+    display: inline-block;
+    width: 30%;
+    border-radius:30px;
+    padding: 5px;
+    color: black;
+}
+.arama img{
+    width: 7%;
+    margin-top: 45px;
+}
+
+
+.wifi{
+    margin-top: 10px;
+    display: inline-block;
+    width: 30%;
+    margin-left: 0px;
+    position: absolute;
+
+    
+}
+.wifi img{
+    width: 10%;
+    margin-left: 135px;
+    margin-top: 40px;
+}
+
+.pil{
+    color: black;
+    margin-top: 11px;
+    display: inline-block;
+    width: 30%;
+    margin-left: 280px;
+    position: absolute;
+    box-sizing: border-box;
+}
+.pil img{
+    width: 20px;
+    margin-top: 40px;
+    
+}
+
+
+
+.icerik{
+    width: 86%;
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 87px;
+    
+}
+.icerik2{
+    width: 86%;
+    
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 87px;
+}
+
+.post{
+    background-image: url('img/Station_BG.png');
+    width: 24%;
+    height: 200px;
+    display: inline-block;
+    margin-left: 5px;
+    border: 0px solid white;
+}
+
+.post span{
+    display: block;
+    
+    font-size: 30px;
+    border: 0px solid white;
+    text-align: center;
+    background-color: black;
+    opacity: 70%;
+}
+.post img{
+    border: 0px solid white;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 20px;
+    
+}
+.post a{
+    text-decoration: none;
+    color: white;
+    border: 0px solid white;
+    font-size: 30px;
+    margin-top: 58px;
+    display: block;
+    text-align: center;
+    background-color: green;
+    opacity: 70%;
+}
+.post a:hover{
+    color: red;
+    background-color: black;
+}
+
+.dolar{
+    border-radius: 5px;
+    float: right;
+    border: 0px solid white;
+    width: auto;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+
+
+.menu ul {
+    background-color: black;
+    color: red;
+    width: 90%;
+    height: 90px;
+    
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 0px;
+    
+}
+.menu ul li {
+    
+    margin-left: 0px;
+    list-style-type: none;
+    display: inline;
+}
+.menu ul li a{
+    margin-left: 30px;
+    text-align: center;
+    width: 190px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition-duration: 1s;
+    border-bottom:1px solid white ;
+    color: white;
+}
+
+.menu ul li a:hover{
+    background-color: #eee;
+    
+}
